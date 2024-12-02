@@ -4,7 +4,7 @@
   "type": "module",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "source": "./index.html",
-  "homepage": "https://apvarun.github.io/graphize",
+  "homepage": "https://andreashofer-ca.github.io/action-graph",
   "license": "MIT",
   "author": {
     "name": "Varun A P",
@@ -18,12 +18,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/apvarun/graphize.git"
+    "url": "https://andreashofer-ca.github.io/action-graph.git"
   },
   "scripts": {
     "dev": "parcel",
     "prebuild": "rm -rf dist",
-    "build": "parcel build --no-source-maps --public-url https://apvarun.github.io/graphize/",
+    "build": "parcel build --no-source-maps --public-url https://andreashofer-ca.github.io/action-graph/",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
